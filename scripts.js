@@ -1,5 +1,5 @@
 function mostrarFormulario(programa) {
-  let formularioNumero = programa.replace("Programa", "");
+  let formularioNumero = programa.replace("Programa","");
   formularioNumero = parseInt(formularioNumero);
 
   if (!isNaN(formularioNumero)) {
